@@ -1,0 +1,116 @@
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: 'Roboto', sans-serif;
+      background-color: #121212;
+      overflow: hidden;
+      color: white;
+    }
+
+    button, input {
+      margin-bottom: 10px;
+      padding: 10px;
+      background-color: #0078d7;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .window {
+      width: 400px;
+      height: 300px;
+      position: absolute;
+      background-color: #333;
+      border: 1px solid #555;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+      resize: both;
+      z-index: 1;
+      border-radius: 10px;
+    }
+
+    .window .title-bar {
+      background-color: #222;
+      color: white;
+      padding: 10px;
+      cursor: move;
+      user-select: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .window .title-bar .left {
+      display: flex;
+      align-items: center;
+      flex-grow: 1;
+      gap: 10px;
+    }
+
+    .window .title-bar .divider {
+      height: 20px;
+      width: 1px;
+      background-color: white;
+      margin: 0 10px;
+    }
+
+    .window .title-bar .custom-buttons {
+      display: flex;
+      gap: 10px;
+      margin-right: 10px;
+    }
+
+    .window .title-bar .buttons {
+      display: flex;
+      gap: 10px;
+    }
+
+    .window .content {
+      height: calc(100% - 40px);
+      background-color: #444;
+    }
+
+    .alert {
+      width: 300px;
+      position: absolute;
+      background-color: #333;
+      border: 1px solid #555;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      z-index: 100;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .alert .title-bar {
+      background-color: #222;
+      color: white;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .alert .content {
+      padding: 20px;
+      background-color: #444;
+    }
+
+    .light-theme {
+      background-color: #f1f1f1 !important;
+      color: #333 !important;
+    }
+
+    .light-theme .title-bar {
+      background-color: #ddd !important;
+    }
+
+    .light-theme .content {
+      background-color: #fff !important;
+    }
+
+    .hidden {
+      display: none;
+    }
