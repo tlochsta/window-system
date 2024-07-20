@@ -1,3 +1,4 @@
+![WE Preview](https://github.com/tlochsta/window-system/blob/main/WE-example.png?raw=true)
 # WindowEngine (WE)
 
 **WindowEngine (WE)** is a JavaScript-based library for creating and managing draggable, resizable, and customizable windows on your web page. It also includes a simplified alert system for displaying notifications. This document provides an overview of the functionality, methods, and examples for using both the window and alert systems.
